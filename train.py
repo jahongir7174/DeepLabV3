@@ -79,6 +79,8 @@ with strategy.scope():
 def main():
     nb_steps = len(image_paths) // (nb_gpu * config.batch_size)
     print("--- Training with {} Steps ---".format(nb_steps))
+    if not exists('weights'):
+        os.makedirs('weights')
     for step, inputs in enumerate(dataset):
         step += 1
         image, y_true = inputs
