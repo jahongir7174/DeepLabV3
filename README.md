@@ -1,6 +1,6 @@
-# EfficientDet
+# DeepLabV3+
 
-[DeepLabV3 Plus](https://arxiv.org/pdf/1802.02611.pdf) implementation for Semantic Segmentation using TensorFlow 2
+[DeepLabV3+](https://arxiv.org/pdf/1802.02611.pdf) implementation for Semantic Segmentation using TensorFlow 2
 
 #### Train
 * Run `python train.py` for final training
