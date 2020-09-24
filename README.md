@@ -8,7 +8,7 @@
 #### Test
 * Run `python test.py`
 
-#### Dataset structure
+#### Dataset structure (similar to CamVid dataset)
     ├── Dataset folder 
         ├── train
             ├── 1111.png
